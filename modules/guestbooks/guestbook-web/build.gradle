@@ -1,0 +1,9 @@
+dependencies {
+	compileOnly group: "com.liferay.portal", name: "release.portal.api"
+
+	cssBuilder group: "com.liferay", name: "com.liferay.css.builder", version: "3.0.3"
+	compileOnly project(":modules:guestbooks:guestbooks-api")
+	compileOnly project(":modules:guestbooks:guestbooks-service")
+	compileOnly group: "com.liferay", name: "com.liferay.application.list.api"
+	compileOnly group: "com.liferay", name: "com.liferay.petra.string"
+}
